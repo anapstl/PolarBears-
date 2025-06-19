@@ -1,0 +1,651 @@
+<?xml version="1.0"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Rode, Karyn D. (ORCID: 0000-0002-3328-8202)</origin>
+        <origin>Douglas, David C. (ORCID: 0000-0003-0186-1104)</origin>
+        <origin>Atwood, Todd C. (ORCID: 0000-0002-1971-3110)</origin>
+        <origin>Durner, George M. (ORCID: 0000-0002-3370-1191)</origin>
+        <origin>Wilson, Ryan R. (ORCID: 0000-0001-7740-7771)</origin>
+        <origin>Bromaghin, Jeffery F. (ORCID: 0000-0002-7209-9500)</origin>
+        <origin>Pagano, Anthony M. (ORCID: 0000-0003-2176-0909)</origin>
+        <origin>Simac, Kristin (ORCID: 0000-0002-4072-1940)</origin>
+        <pubdate>20221031</pubdate>
+        <title>Polar Bear Continuous Time-Correlated Random Walk (CTCRW) Location Data Derived from Satellite Location Data, Chukchi and Beaufort Seas, July-November 1985-2017</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Anchorage, Alaska</pubplace>
+          <publish>U.S. Geological Survey, Alaska Science Center</publish>
+        </pubinfo>
+        <othercit>Suggested Citation:  Rode, K.D., Douglas, D.C., Atwood, T.C., Durner, G.M., Wilson, R.R., Bromaghin, J.F., Pagano, A.M., Simac, K. 2022, Polar bear Continuous Time-Correlated Random Walk (CTCRW) location data derived from satellite location data, Chukchi and Beaufort Seas, July-November 1985–2017: U.S. Geological Survey data release, https://doi.org/10.5066/P9XEOBWV</othercit>
+        <onlink>https://doi.org/10.5066/P9XEOBWV</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>U.S. Geological Survey, Alaska Science Center</origin>
+            <pubdate>1984</pubdate>
+            <title>Response of Polar Bear Populations to a Rapidly Diminishing Sea Ice Environment</title>
+            <geoform>website</geoform>
+            <serinfo>
+              <sername>Alaska Science Portal</sername>
+              <issue>16</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Anchorage, Alaska</pubplace>
+              <publish>U.S. Geological Survey, Alaska Science Center</publish>
+            </pubinfo>
+            <othercit>This is a link to the broader USGS Alaska Science Center research project that supported the collection of these data. Users will find a description of the research project and links to associated reports, publications, and data products.</othercit>
+            <onlink>https://alaska.usgs.gov/portal/project.php?project_id=16</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset consists of one table with estimated locations of adult female polar bears during July-November 1985-2017, used for quantifying changes in summer land use over time. Locations were estimated with a Continuous Time-Correlated Random Walk (CTCRW) model fit to satellite tracking from radio-collared adult female polar bears. All bears included in this data set were captured and instrumented in the Beaufort or Chukchi Sea.</abstract>
+      <purpose>These data were used to estimate trends in land use patterns of polar bears in response to changing sea ice conditions. These data were gathered as part of on-going long-term research by the U.S. Geological Survey in the Beaufort Sea and the U.S. Fish and Wildlife Service in the Chukchi Sea to understand the ecology and behavior of polar bears and their seasonal use of terrestrial and sea ice habitats.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19850701</begdate>
+          <enddate>20171130</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>observed</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <descgeog>Beaufort and Chukchi Seas</descgeog>
+      <bounding>
+        <westbc>144.0864</westbc>
+        <eastbc>-111.104</eastbc>
+        <northbc>83.901</northbc>
+        <southbc>63.383</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:ASC491</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>Biota</themekey>
+        <themekey>Environment</themekey>
+      </theme>
+      <theme>
+        <themekt>NASA GCMD Earth Science Keyword Thesaurus</themekt>
+        <themekey>Animals/Vertebrates</themekey>
+        <themekey>Mammals</themekey>
+        <themekey>Carnivores</themekey>
+        <themekey>Bears</themekey>
+        <themekey>Species Life History</themekey>
+        <themekey>Use/Feeding habitat</themekey>
+        <themekey>Telemetry</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS CSA Biocomplexity Thesaurus</themekt>
+        <themekey>Marine mammals</themekey>
+        <themekey>Threatened species</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>Wildlife</themekey>
+        <themekey>Coastal ecosystems</themekey>
+        <themekey>Marine ecosystems</themekey>
+        <themekey>Animal behavior</themekey>
+        <themekey>Biogeography</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Satellite Transmitter</themekey>
+        <themekey>Argos</themekey>
+        <themekey>PTT</themekey>
+        <themekey>GPS</themekey>
+        <themekey>Polar bears</themekey>
+        <themekey>Ursus maritimus</themekey>
+      </theme>
+      <place>
+        <placekt>USGS Geographic Names Information System (GNIS)</placekt>
+        <placekey>Alaska</placekey>
+        <placekey>Beaufort Sea</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>Animals</taxonkey>
+        <taxonkey>Mammals</taxonkey>
+        <taxonkey>Vertebrates</taxonkey>
+        <taxonkey>Bears</taxonkey>
+        <taxonkey>Polar bears</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>ITIS Integrated Taxonomic Information System</origin>
+              <pubdate>Unknown</pubdate>
+              <title>ITIS Integrated Taxonomic Information System</title>
+              <geoform>online database</geoform>
+              <serinfo>
+                <sername>ITIS</sername>
+                <issue>TSN 180542</issue>
+              </serinfo>
+              <pubinfo>
+                <pubplace>online</pubplace>
+                <publish>ITIS-North America</publish>
+              </pubinfo>
+              <othercit>Taxonomic details retrieved April 21, 2023 from the Integrated Taxonomic Information System online database: https://www.itis.gov</othercit>
+              <onlink>https://doi.org/10.5066/F7KH0KBK</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <taxonpro>Species identification was made by skilled observers in the field based on general appearance. Polar bears are not easily confused with other species.</taxonpro>
+        <taxoncom>Taxonomy is complete for all samples. No voucher specimens were collected.</taxoncom>
+      </taxonsys>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Bilateria</taxonrv>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Deuterostomia</taxonrv>
+            <taxoncl>
+              <taxonrn>Phylum</taxonrn>
+              <taxonrv>Chordata</taxonrv>
+              <taxoncl>
+                <taxonrn>Subphylum</taxonrn>
+                <taxonrv>Vertebrata</taxonrv>
+                <taxoncl>
+                  <taxonrn>Infraphylum</taxonrn>
+                  <taxonrv>Gnathostomata</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Superclass</taxonrn>
+                    <taxonrv>Tetrapoda</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Class</taxonrn>
+                      <taxonrv>Mammalia</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Subclass</taxonrn>
+                        <taxonrv>Theria</taxonrv>
+                        <taxoncl>
+                          <taxonrn>Infraclass</taxonrn>
+                          <taxonrv>Eutheria</taxonrv>
+                          <taxoncl>
+                            <taxonrn>Order</taxonrn>
+                            <taxonrv>Carnivora</taxonrv>
+                            <taxoncl>
+                              <taxonrn>Suborder</taxonrn>
+                              <taxonrv>Caniformia</taxonrv>
+                              <taxoncl>
+                                <taxonrn>Family</taxonrn>
+                                <taxonrv>Ursidae</taxonrv>
+                                <taxoncl>
+                                  <taxonrn>Genus</taxonrn>
+                                  <taxonrv>Ursus</taxonrv>
+                                  <taxoncl>
+                                    <taxonrn>Species</taxonrn>
+                                    <taxonrv>Ursus maritimus</taxonrv>
+                                    <common>Polar Bear</common>
+                                    <common>TSN: 180542</common>
+                                  </taxoncl>
+                                </taxoncl>
+                              </taxoncl>
+                            </taxoncl>
+                          </taxoncl>
+                        </taxoncl>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+    <accconst>None</accconst>
+    <useconst>It is requested that the authors and the USGS Alaska Science Center and US Fish and Wildlife Service Alaska Region be cited for any subsequent publications that reference this dataset.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>Rode, K.D. (ORCID: 0000-0002-3328-8202)</origin>
+        <origin>Douglas, D.C. (ORCID: 0000-0003-0186-1104)</origin>
+        <origin>Atwood, T.C. (ORCID:  0000-0002-1971-3110)</origin>
+        <origin>Durner, G.M. (ORCID: 0000-0002-3370-1191)</origin>
+        <origin>Wilson, R.R. (ORCID: 0000-0001-7740-7771)</origin>
+        <origin>Bromaghin, J.F. (ORCID: 0000-0002-7209-9500)</origin>
+        <origin>Pagano, A.M. (ORCID: 0000-0003-2176-0909)</origin>
+        <pubdate>2022</pubdate>
+        <title>Observed and Forecasted Changes in Land Use by Polar Bears in the Chukchi and Beaufort Seas, 1985-2040</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Global Ecology and Conservation</sername>
+          <issue>40:e02319</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>online</pubplace>
+          <publish>Elsevier</publish>
+        </pubinfo>
+        <othercit>Rode, K.D., Douglas, D.C., Atwood, T.C., Durner, G.M., Wilson, R.R., Bromaghin, J.F., Pagano, A.M., 2022. Observed and forecasted changes in land use by polar bears in the Chukchi and Beaufort Seas, 1985-2040. Global Ecology and Conservation 40:e02319.  doi:10.1016/j.gecco.2022.e02319</othercit>
+        <onlink>https://doi.org/10.1016/j.gecco.2022.e02319</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>We used a continuous time-correlated random walk (CTCRW) model to estimate polar bear locations every 6 hr at 00:00, 06:00, 12:00, and 18:00 Coordinated Universal Time (UTC) based on the Argos and subsampled-GPS locations. The CTCRW model provides standard error estimates for the average estimated locations based on the estimated error for Argos Location Classes and GPS locations, and the elapsed time differences between the sequential empirical tracking locations.</attraccr>
+    </attracc>
+    <logic>Attribute values fall within expected ranges.</logic>
+    <complete>No CTCRW model estimated locations were generated for periods when the elapsed time between sequential tracking locations exceeded fourteen days. Details of the criteria used to filter the Argos locations prior to entry to the CTCRW model are provided in the Methodology and Process Steps sections of this metadata record.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>All polar bear satellite locations collected between 1986–2003 were Doppler-shift derived and estimated by the Argos system (CLS; https://www.argos-system.org/manual/ ). The data were filtered by the Douglas Argos-filter (DAF) algorithm (Douglas et al 2012) distance-angle-rate algorithm (MAXREDUN = 10 km, MINRATE = 10 km/hr ). Douglas et al. (2012) estimated the 68th percentile for the horizontal error of post-filtered Argos location classes 3, 2, 1, 0, A, B and Z as, respectively, 0.4, 1.0, 2.5, 6.8, 4.1, 7.6, and 4.7 km. Most polar bear locations collected after 2003 were derived by on-board global positioning system (GPS) receivers whose horizontal accuracy has been estimated as 30 m (Adams et al. 2013). We did not filter GPS locations. GPS location error estimates were used in CTCRW modeling described below.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <method>
+        <methtype>Field</methtype>
+        <methdesc>From 1985 to 2017, biologists captured adult female polar bears in the southern Beaufort Sea and Chukchi Sea and equipped them with collar platform transmitter terminals (PTTs) that provided Doppler-derived or GPS locations. Collars additionally recorded temperature and activity sensor data. We restricted our analysis to data from radio-collared adult female polar bears because adult male and sub-adult polar bears cannot wear radio collars, and the vast majority of tracking data has been of adult females (Durner et al 2009).</methdesc>
+      </method>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Adams, A.L.</origin>
+            <origin>Dickinson, K.J.M.</origin>
+            <origin>Robertson, B.C.</origin>
+            <origin>van Heezik, Y.</origin>
+            <pubdate>2013</pubdate>
+            <title>An evaluation of the accuracy and performance of lightweight GPS collars in a suburban environment</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>PLoS One</sername>
+              <issue> 8(7):e68496</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>online</pubplace>
+              <publish>PLoS One</publish>
+            </pubinfo>
+            <othercit>Adams, A.L., Dickinson, K.J.M., Robertson, B.C., van Heezik, Y. 2013. An evaluation of the accuracy and performance of lightweight GPS collars in a suburban environment. PLoS ONE 8(7):e68496  doi:10.1371/journal.pone.0068496</othercit>
+            <onlink>https://doi.org/10.1371/journal.pone.0068496</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>journal article</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2013</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Adams et al 2013</srccitea>
+        <srccontr>Describes the use of the horizontal accuracy of on-board geographic positioning system (GPS) receivers.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Douglas, D.C.</origin>
+            <origin>Weinzierl, R.</origin>
+            <origin>Davidson, S.C.</origin>
+            <origin>Kays, R.</origin>
+            <origin>Wikelski, M.</origin>
+            <origin>Bohrer, G.</origin>
+            <pubdate>2012</pubdate>
+            <title>Moderating Argos location errors in animal tracking data</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Methods in Ecology and Evolution</sername>
+              <issue>3:999-1007</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Online</pubplace>
+              <publish>John Wiley and Sons, Inc.</publish>
+            </pubinfo>
+            <othercit>Douglas, D.C., Weinzierl, R., Davidson, S.C., Kays, R., Wikelski, M., Bohrer, G. 2012. Moderating Argos location errors in animal tracking data. Methods in Ecology and Evolution 3:999-1007  doi:10.1111/j.2041-210X.2012.00245.x</othercit>
+            <onlink>https://doi.org/10.1111/j.2041-210X.2012.00245.x</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>journal article</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2012</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Douglas et al 2012</srccitea>
+        <srccontr>Describes the use of the "Douglas Argos Filter" (DAF) for flagging implausible locations.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Durner, G.M.</origin>
+            <origin>Douglas, D.C.</origin>
+            <origin>Nielson, R.M.</origin>
+            <origin>Amstrup, S.C.</origin>
+            <origin>McDonald, T.L.</origin>
+            <origin>Stirling, I.</origin>
+            <origin>Mauritzen, M.</origin>
+            <origin>Born, E.W.</origin>
+            <origin>Wiig, Ø.</origin>
+            <origin>DeWeaver, E.</origin>
+            <origin>Serreze, M.C.</origin>
+            <origin>Belikov, S.E.</origin>
+            <origin>Holland, M.M.</origin>
+            <origin>Maslanik, J.</origin>
+            <origin>Aars, J.</origin>
+            <origin>Bailey, D.A.</origin>
+            <origin>Derocher, A.E.</origin>
+            <pubdate>2009</pubdate>
+            <title>Predicting 21st-century polar bear habitat distribution from global climate models</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecological Monographs</sername>
+              <issue>79(1):25-58</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>online</pubplace>
+              <publish>Ecological Society of America</publish>
+            </pubinfo>
+            <othercit>Durner, G.M., Douglas, D.C., Nielson, R.M., Amstrup, S.C., McDonald, T.L., Stirling, I., Mauritzen, M., Born, E.W., Wiig, Ø., DeWeaver, E., Serreze, M.C., Belikov, S.E., Holland, M.M., Maslanik, J., Aars, J., Bailey, D.A., Derocher, A.E. 2009. Predicting 21st-century polar bear habitat distribution from global climate models. Ecological Monographs 79(1):25-58.  doi:10.1890/07-2089.1</othercit>
+            <onlink>https://doi.org/10.1890/07-2089.1</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>journal article</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Durner et al 2009</srccitea>
+        <srccontr>Describes the use of the deployment and tracking data from satellite radio-collared polar bears.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Johnson, D.S.</origin>
+            <origin>London, J.M.</origin>
+            <origin>Lea, M.-A.</origin>
+            <origin>Durban, J.W.</origin>
+            <pubdate>2008</pubdate>
+            <title>Continuous-time correlated random walk model for animal telemetry data</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecological Monographs</sername>
+              <issue>79(1):25-58</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>online</pubplace>
+              <publish>Ecological Society of America</publish>
+            </pubinfo>
+            <othercit>Johnson, D.S., London, J.M., Lea, M.-A., Durban, J.W. 2008. Continous-time correlated random walk model for animal telemetry data. Ecology 89(5):1208-1215.  doi:10.1890/07-1032.1</othercit>
+            <onlink>https://doi.org/10.1890/07-1032.1</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>journal article</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2008</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Johnson et al 2008</srccitea>
+        <srccontr>Describes the use of a continuous time-correlated random walk (CTCRW) model to predict locations on standard intervals.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Olson, J.M.</origin>
+            <origin>Rode, K.D.</origin>
+            <origin>Eggett, D.</origin>
+            <origin>Smith, T.S.</origin>
+            <origin>Wilson, R.R.</origin>
+            <origin>Durner, G.M.</origin>
+            <origin>Fischbach, A.</origin>
+            <origin>Atwood, T.C.</origin>
+            <origin>Douglas, D.C.</origin>
+            <pubdate>2017</pubdate>
+            <title>Collar temperature sensor data reveal long-term patterns in southern Beaufort Sea polar bear den distribution on pack ice and land</title>
+            <geoform>publication</geoform>
+            <othercit>Olson, J.M., Rode, K.D., Eggett, D., Smith, T.S., Wilson, R.R., Durner, G.M., Fischbach, A., Atwood, T.C., Douglas, D.C. 2017. Collar temperature sensor data reveal long-term patterns in southern Beaufort Sea polar bear den distribution on pack ice and land. Marine Ecology Progress Series 564:211-224. doi:10.3354/meps12000</othercit>
+            <onlink>https://doi.org/10.3354/meps12000</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>journal article</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2017</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Olson et al 2017</srccitea>
+        <srccontr>Describes the identification of winter maternal denning events in polar bears using collar temperature sensor data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>R Core Team</origin>
+            <pubdate>2018</pubdate>
+            <title>R: a language and environment for statistical computing</title>
+            <geoform>application/service</geoform>
+            <othercit>R Core Team. 2018. R: a language and environment for statistical computing. R Foundation for Statistical Computing, Vienna.</othercit>
+            <onlink>https://www.R-project.org</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2018</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>R Core Team</srccitea>
+        <srccontr>Software used to run the continuous time-correlated random walk (CTCRW) model (Johnson et al. 2008) to estimate locations on a 6-hour interval at 00:00, 06:00, 12:00, and 18:00 Coordinated Universal Time (UTC) based on the filtered Argos and GPS locations. The R package 'crawl', version 2.2.3, was used for the CTCRW modeling.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Raw tracking data were obtained through the Argos System (www.argos-system.org) or the Iridium satellite system (Iridium Satellite Communications, McLean, VA, USA).</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>All polar bear satellite locations collected between 1985–2003 were Doppler-shift derived and estimated by the Argos system (CLS; https://www.argos-system.org/manual/ ). We performed an initial filter to remove implausible Doppler locations using the Douglas Argos-filter (DAF) algorithm (Douglas et al. 2012). DAF retained all standard-quality locations (Argos location classes 3, 2, and 1), and auxiliary location classes (0, A, B and Z) when corroborated by a consecutive location within a 10 km radius, or when movement rates were &lt;10 km hr-1 and the internal angles (α, in degrees) formed by preceding and subsequent vectors (of lengths d1 and d2 km) were not suspiciously acute (α &gt; -25 + β × ln[minimum (d1,d2)], where β = 15). We assigned β = 15 because it performed well for our specific tracking data across seasons and regions. Most polar bear locations collected after 2003 were derived by on-board global positioning system (GPS) receivers whose horizontal accuracy has been estimated as 30 m (Adams et al 2013). Argos locations collected after 2003 were also filtered as described above.
+
+        To standardize location intervals across all annual tracking data subsets, we used continuous time-correlated random walk (CTCRW) model to estimate a single location every 6 hr at 00:00, 06:00, 12:00, and 18:00 Coordinated Universal Time (UTC) based on the filtered Argos and GPS locations. The CTCRW model further provides standard error estimates for the average estimated locations based on the estimated error for Argos Location Classes and GPS locations, and the elapsed time differences between the sequential empirical tracking locations.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.0001</latres>
+        <longres>0.0001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>World Geodetic System of 1984</horizdn>
+        <ellips>World Geodetic System of 1984</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>299.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>polarBear_CTCRW_Locations_ChukchiAndBeaufortSea_1985-2017.csv</enttypl>
+        <enttypd>Table containing continuous time-correlated random walk (CTCRW) estimated locations (geographic latitude/longitude WGS84) during the months of July-November, derived from satellite location data from adult female polar bears captured in the Beaufort and Chukchi seas, 1985–2017. Presented in a Comma Separated Value (CSV) formatted table.</enttypd>
+        <enttypds>Author defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>UniqueAnimalID</attrlabl>
+        <attrdef>A unique identifier assigned to each bear in the dataset.</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>541</rdommax>
+            <attrunit>none</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>timestamp</attrlabl>
+        <attrdef>The date and time associated with the CTCRW model-derived location coordinates, Coordinated Universal Time (UTC).</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1985-07-01 00:00:00</rdommin>
+            <rdommax>2017-11-30 18:00:00</rdommax>
+            <attrunit>YYYY-MM-DD HH:MM:SS</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mu_lat</attrlabl>
+        <attrdef>Estimated latitude derived by the CTCRW model for the given timestamp.</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>63.3830</rdommin>
+            <rdommax>83.9014</rdommax>
+            <attrunit>Decimal degrees (WGS84; EPSG:4326)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mu_lon</attrlabl>
+        <attrdef>Estimated longitude derived by the CTCRW model for the given timestamp.</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-179.9999</rdommin>
+            <rdommax>179.9998</rdommax>
+            <attrunit>Decimal degrees (WGS84; EPSG:4326)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>se_mu_x</attrlabl>
+        <attrdef>Standard error of the average estimated location (mu_lon and mu_lat) by the CTCRW model based on the estimated error for the Argos Location Classes and GPS locations, and the elapsed time differences between the sequential empirical tracking location data.</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>11</rdommin>
+            <rdommax>66766</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>se_mu_y</attrlabl>
+        <attrdef>Standard error of the average estimated location (mu_lon and mu_lat) by the CTCRW model based on the estimated error for the Argos Location Classes and GPS locations, and the elapsed time differences between the sequential empirical tracking location data.</attrdef>
+        <attrdefs>Author defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>11</rdommin>
+            <rdommax>66766</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>The U.S. Geological Survey, Alaska Science Center is the authoritative source and distributor of these data.</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data for other purposes or on all computer systems, nor shall the act of distribution constitute any such warranty. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formcont>Data are distributed in a Zip package containing data in CSV format and FGDC metadata in XML and HTML formats.</formcont>
+          <filedec>Compression applied by the 7-Zip utility using the default compression level [5]. The Zip package can be decompressed and unpacked by open source or commercially available unzip tools.</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9XEOBWV</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20230421</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Alaska Science Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>4210 University Drive</address>
+          <city>Anchorage</city>
+          <state>Alaska</state>
+          <postal>99508</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>907-786-7000</cntvoice>
+        <cntemail>ascweb@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata (CDGSM)</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
