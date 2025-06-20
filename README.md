@@ -55,6 +55,7 @@ Para ello se necesitaran generar variables derivadas como:
 ``Size``: 138.363  
 ``Fuente``: https://pmc.ncbi.nlm.nih.gov/articles/PMC10000026/#sec2-animals-13-00801 
 
+![alt text](image-2.png)
 
 ### Work approach
 | Objetivo         |             Tipo             | Modelo            |
