@@ -10,7 +10,7 @@
 ![alt text](mom_cubs2_adj_1.jpg)
 El conjunto de datos se compone de una tabla que contiene estimaciones de la ubicación de hembras adultas de oso polar durante el período comprendido entre julio y noviembre de los años 1985 a 2017. Este conjunto de datos se emplea para cuantificar los cambios en el uso del suelo durante el verano a lo largo del tiempo. 
 
-Las ubicaciones se estimaron mediante un modelo de Paseo Aleatorio Continuo Correlacionado en el Tiempo (CTCRW, por sus siglas en inglés), ajustado al seguimiento por satélite de osos polares hembra adultos con radio-collar. 
+Las ubicaciones se estimaron mediante un modelo de Paseo Aleatorio Continuo Correlacionado en el Tiempo (CTCRW, por sus siglas en inglés), ajustado al seguimiento por satélite de osos polares hembra adultos con radio-collar.  
 ![](image.png) _George Durner, investigador polar del Servicio Geológico de EE.UU._
 
 Todos los osos incluidos en este conjunto de datos fueron capturados e instrumentados en los mares de Beaufort o Chukchi.
