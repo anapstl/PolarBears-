@@ -45,6 +45,8 @@ El conjunto de datos contiene las siguientes características:
 Para ello se necesitaran generar variables derivadas como:
 + Velocidad, acceleración, cambio de dirección.
 + Distancia diaria, hábitat por zona (cruzado con mapas/coordenadas)
++ Estado ambiental: cubierta de hielomarino, temperatura superficie, velocidad del viento, 
+cobertura nubosa, ...
 
 ![alt text](large_polar_bear_4-1-2009_Mike_Lockhart.jpg)  
 
