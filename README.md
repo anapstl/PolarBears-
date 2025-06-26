@@ -36,7 +36,7 @@ El conjunto de datos contiene las siguientes características:
 
 | Objetivo                                  | Tipo                  | Target                | Modelo                     |
 |-------------------------------------------|-----------------------|-----------------------|-------------------------------------|
-| ¿Qué distancia media recorre según sexo o edad? | Regresión             | _distance_per_day_      | Linear Regression, Ridge            |
+| ¿Qué distancia media recorre? | Regresión             | _distance_per_day_      | Linear Regression, Ridge            |
 | ¿Clasificar patrones de movimiento (activo, estacionario)? | Clasificación         | _movement_pattern_ | Logistic Regression, XGBoost        |
 | ¿Segmentar osos por estilo de movimiento? | Clustering (no supervisado) | —                     | KMeans, HDBSCAN, PCA                |
 | ¿Detectar anomalías en trayectorias?      | Anomaly detection     | —                     | Isolation Forest, OneClassSVM       |
@@ -76,7 +76,10 @@ cobertura nubosa, ...
 * PolarBears- Polar Bear Continuous Time-Correlated Random Walk (CTCRW) Location Data Derived from Satellite Location Data, Chukchi and Beaufort Seas, July-November 1985-2017 (https://alaska.usgs.gov/products/data.php?dataid=525)
 
 
-* [A Journey Through the Arctic: Using Machine Learning to cluster Female Polar Bears Based on Movement Patterns](https://medium.com/@viritaromero/a-journey-through-the-arctic-using-machine-learning-to-cluster-female-polar-bears-based-on-8a2870c5e53b)
+* [A Journey Through the Arctic: Using Machine Learning to cluster Female Polar Bears Based on Movement Patterns](https://medium.com/@viritaromero/a-journey-through-the-arctic-using-machine-learning-to-cluster-female-polar-bears-based-on-8a2870c5e53b)  
+
+* [Metadata](https://alaska.usgs.gov/data/metadata/ecosystems/polarBear/polarBear_CTCRWlocations_chukchiBeaufort_1985-2017/polarBear_CTCRWlocations_chukchiBeaufort_1985-2017_metadata.html
+)
 
 
 
