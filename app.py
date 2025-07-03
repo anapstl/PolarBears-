@@ -28,6 +28,7 @@ def set_background(png_file):
 
 # Configuración inicial
 st.set_page_config(page_title="Exploradores Polares", layout="wide")
+# st.logo("../assets/mom_cubs2_adj_reduced.ico")
 
 st.markdown("""
     <style>
@@ -38,7 +39,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Llama esta función al inicio de tu app
-set_background("assets/mom_cubs2_adj_1.jpg")
+# set_background("assets/mom_cubs2_adj_1.jpg")
+set_background("assets/bckG.jpeg")
 
 # Encabezado principal
 st.title("🐾 Tras las huellas del oso polar 🐻‍❄️")
