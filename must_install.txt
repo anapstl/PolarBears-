@@ -1,0 +1,6 @@
+# !pip install xarray netCDF4 geopy tqdm skyfield requests 
+# !pip install ipyleaflet
+# !pip install cartopy
+# !pip install xarray netCDF4 geopy tqdm skyfield requests pyproj
+# !pip install plotly.express
+
