@@ -6,6 +6,8 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
+from matplotlib.colors import to_hex
+
 import seaborn as sns
 import numpy as np
 
@@ -91,6 +93,9 @@ if seccion == "Segmentación por movimiento":
 
         orden = resumen["distance_per_day"].sort_values(ascending=False).index
         nombres_ordenados = {cluster_id: nombre for cluster_id, nombre in zip(orden, nombres_disponibles)}
+        # Paleta de colores consistente
+        palette = sns.color_palette("Set2", n_colors=k)  # o "tab10", "Set3", etc.
+        colores_por_nombre = {nombre: to_hex(color) for nombre, color in zip(nombres_ordenados.values(), palette)}
 
         df_cluster["cluster_name"] = df_cluster["cluster"].map(nombres_ordenados)
         resumen["cluster_name"] = resumen.index.map(nombres_ordenados)
@@ -98,7 +103,7 @@ if seccion == "Segmentación por movimiento":
         # Visualización PCA
         # st.subheader("Visualización PCA")
         fig, ax = plt.subplots(figsize=(6, 4), facecolor="none")
-        sns.scatterplot(data=df_cluster, x="pca_1", y="pca_2", hue="cluster_name", palette="Set2", ax=ax)
+        sns.scatterplot(data=df_cluster, x="pca_1", y="pca_2", hue="cluster_name", palette=colores_por_nombre, ax=ax)
         legend = ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1))  # tu leyenda actual
         legend.get_frame().set_alpha(0.0)  # hace el fondo completamente transparente
         ax.set_title("Visualización PCA")
@@ -115,8 +120,9 @@ if seccion == "Segmentación por movimiento":
             values += values[:1]  # cerrar el radar
             angles = [n / float(N) * 2 * np.pi for n in range(N)]
             angles += angles[:1]
-            ax_radar.plot(angles, values, label=row["cluster_name"])
-            ax_radar.fill(angles, values, alpha=0.1)
+            color = colores_por_nombre.get(row["cluster_name"], "#333333")  # color por cluster
+            ax_radar.plot(angles, values, label=row["cluster_name"], color=color)
+            ax_radar.fill(angles, values, alpha=0.1, color=color)
 
         ax_radar.set_xticks([n / float(N) * 2 * np.pi for n in range(N)])
         ax_radar.set_xticklabels(categories)
