@@ -7,15 +7,15 @@
 ``Dataset``: [Polar Bear CTCRW Movement Data – USGS](https://alaska.usgs.gov/data/polarBear/polarBear_CTCRWlocations_chukchiBeaufort_1985-2017/polarBear_CTCRWlocations_chukchiBeaufort_1985-2017.zip)  
 ``Size``: (338413, 6)
 
-![alt text](../assets/mom_cubs2_adj_1.jpg)
+![alt text](assets/mom_cubs2_adj_1.jpg)
 El conjunto de datos se compone de una tabla que contiene estimaciones de la ubicación de hembras adultas de oso polar durante el período comprendido entre julio y noviembre de los años 1985 a 2017. Este conjunto de datos se emplea para cuantificar los cambios en el uso del suelo durante el verano a lo largo del tiempo. 
 
 Las ubicaciones se estimaron mediante un modelo de Paseo Aleatorio Continuo Correlacionado en el Tiempo (CTCRW, por sus siglas en inglés), ajustado al seguimiento por satélite de osos polares hembra adultos con radio-collar.  
-![](../assets/image.png) _George Durner, investigador polar del Servicio Geológico de EE.UU._
+![](assets/image.png) _George Durner, investigador polar del Servicio Geológico de EE.UU._
 
 Todos los osos incluidos en este conjunto de datos fueron capturados e instrumentados en los mares de Beaufort o Chukchi.
 
-![alt text](../assets/two_polar_bears_swimming_10-11-2009_USGS.jpg)
+![alt text](assets/two_polar_bears_swimming_10-11-2009_USGS.jpg)
 
 
 El conjunto de datos contiene las siguientes características:
@@ -30,7 +30,7 @@ El conjunto de datos contiene las siguientes características:
 
 + ``se_mu_y``: Error estándar de la ubicación media estimada (mu_lon) por el modelo CTCRW basado en el error estimado para las clases de ubicación Argos y las ubicaciones GPS, y las diferencias de tiempo transcurrido entre los datos de ubicación de seguimiento empírico secuencial.
 
-![alt text](../assets/image-1.png)
+![alt text](assets/image-1.png)
 
 ### 1.2 Work approach
 
@@ -48,7 +48,7 @@ Para ello se necesitaran generar variables derivadas como:
 + Estado ambiental: cubierta de hielomarino, temperatura superficie, velocidad del viento, 
 cobertura nubosa, ...
 
-![alt text](../assets/large_polar_bear_4-1-2009_Mike_Lockhart.jpg)  
+![alt text](assets/large_polar_bear_4-1-2009_Mike_Lockhart.jpg)  
 
 ## 2. Visio: **Detección/segmentación de osos en entornos reales**
 
@@ -57,7 +57,7 @@ cobertura nubosa, ...
 ``Size``: 138.363  
 ``Fuente``: https://pmc.ncbi.nlm.nih.gov/articles/PMC10000026/#sec2-animals-13-00801 
 
-![alt text](../assets/image-2.png)
+![alt text](assets/image-2.png)
 
 ### Work approach
 | Objetivo         |             Tipo             | Modelo            |
