@@ -92,6 +92,33 @@ def mostrar(df):
         pred = float(modelo.predict(X_infer)[0])
         st.success(f"Distancia diaria estimada: **{pred:.2f} km**")
 
+
+        # Título
+    st.markdown("### Datos simulados de comportamiento diario del oso polar")
+
+    # Datos
+    datos = pd.DataFrame({
+        "Estación": ["Verano", "Transición", "Invierno", "Verano extremo", "Estático", "Migración costera"],
+        "Velocidad (km/h)": [3.5, 2.0, 0.5, 5.0, 0.0, 2.8],
+        "Aceleración (km/h²)": [0.15, 0.10, 0.02, 0.30, 0.00, 0.12],
+        "Cambio de dirección (°)": [35, 20, 5, 50, 0, 25],
+        "Horas de luz": [20, 12, 4, 22, 8, 14],
+        "Latitud": [78, 75, 73, 79, 74, 68],
+        "Longitud": [-160, -155, -145, -165, -150, -135],
+        "Distancia estimada (km/día)": ["60–70", "30–40", "5–8", "80–90", "~0", "45–50"],
+        "Ubicación aproximada": [
+            "Mar de Beaufort, Alaska",
+            "Bahía de Hudson occidental",
+            "Interior del Ártico canadiense",
+            "Plataforma de hielo al norte de Alaska",
+            "Madriguera o descanso",
+            "Costa del mar de Chukotka"
+        ]
+    })
+
+    # Mostrar tabla
+    st.dataframe(datos)
+
     # # Mostrar 3 ejemplos reales al final
     # st.markdown("### Ejemplos reales (predicción vs. realidad)")
     # # Cargar datos reales

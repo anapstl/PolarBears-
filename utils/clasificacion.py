@@ -12,12 +12,12 @@ import seaborn as sns
 @st.cache_resource(show_spinner=False)
 def cargar_modelo_y_scaler():
     try:
-        with open("../models/logreg_movement.pkl", "rb") as f:
+        with open("./models/cls_pattern.pkl", "rb") as f:
             modelo = pickle.load(f)
     except Exception:
         modelo = None
     try:
-        with open("../models/scale_movement.pkl", "rb") as f:
+        with open("./models/cls_scaler.pkl", "rb") as f:
             scaler = pickle.load(f)
     except FileNotFoundError:
         scaler = None
@@ -62,8 +62,8 @@ def mostrar(df):
         "daylight_hours": daylight,
         "AvgLatitude": lat,
         "AvgLongitude": lon,
-        "season_verano": season_verano,
-        "season_transicion": season_transicion
+        "season_transicion": season_transicion,
+        "season_verano": season_verano
     }])
 
     if scaler is not None:
@@ -79,6 +79,36 @@ def mostrar(df):
             st.success(f"Predicción: **{label}** (probabilidad de 'estacionario': {prob:.2f})")
         else:
             st.error("Modelo no encontrado. Entrena y guarda primero el modelo en 'models/logreg_movement.pkl'.")
+
+
+    # Título
+    st.markdown("## Datos simulados para clasificación de actividad de osos polares")
+
+    # Datos simulados
+    datos_clasificacion = pd.DataFrame({
+        "Estación": ["Verano", "Transición", "Invierno", "Verano extremo", "Estático", "Migración costera"],
+        "Velocidad (km/h)": [3.5, 2.0, 0.5, 5.0, 0.0, 2.8],
+        "Aceleración (km/h²)": [0.15, 0.10, 0.02, 0.30, 0.00, 0.12],
+        "Cambio de dirección (°)": [35, 20, 5, 50, 0, 25],
+        "Horas de luz": [20, 12, 4, 22, 8, 14],
+        "Latitud": [78, 75, 73, 79, 74, 68],
+        "Longitud": [-160, -155, -145, -165, -150, -135],
+        "Patrón de movimiento": [
+            "Activo", "Activo", "Estacionario", "Activo", "Estacionario", "Activo"
+        ],
+        "Ubicación aproximada": [
+            "Mar de Beaufort, Alaska",
+            "Bahía de Hudson occidental",
+            "Interior del Ártico canadiense",
+            "Plataforma de hielo al norte de Alaska",
+            "Madriguera o descanso",
+            "Costa del mar de Chukotka"
+        ]
+    })
+
+    # Mostrar tabla en app
+    st.dataframe(datos_clasificacion)
+
 
     # # Mostrar ejemplos reales
     # st.markdown("### Ejemplos reales (predicción vs. realidad)")

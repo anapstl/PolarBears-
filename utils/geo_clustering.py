@@ -13,7 +13,9 @@ import ipywidgets as widgets
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
 import base64
-from utils.mapa_ositas import crear_leyenda_magma, mostrar_ositas_cluster
+# from utils.mapa_ositas_cluster import crear_leyenda_magma, mostrar_ositas_cluster
+from utils.mapa_ositas_cluster import mostrar_ositas_cluster_pydeck
+
 
 
 def mostrar(df):
@@ -102,28 +104,60 @@ def mostrar(df):
         """)
         st.dataframe(resumen.set_index("cluster_name").style.format(precision=2))
 
-        #         # Mapa interactivo con ipyleaflet
+        # if st.checkbox("Mostrar mapa interactivo de clusters"):
+        resumen_geo = (
+            df_geo.groupby("cluster")
+            .agg({
+                "AvgLatitude": "mean",
+                "AvgLongitude": "mean",
+                "UniqueAnimalID": "nunique"
+            })
+            .rename(columns={"UniqueAnimalID": "uniqueanimalid"}).reset_index()
+        )
+
+        st.subheader("Visualización geográfica con PyDeck")
+        mapa = mostrar_ositas_cluster_pydeck(resumen_geo)
+        st.pydeck_chart(mapa)
+
+
         # st.subheader("Visualización geográfica en mapa")
 
         # mostrar_mapa = st.checkbox("Mostrar mapa interactivo de clusters")
 
         # if mostrar_mapa:
-        #     # Preparamos el DataFrame resumen con número de osas por cluster
         #     resumen_geo = (
         #         df_geo.groupby("cluster")
         #         .agg({
         #             "AvgLatitude": "mean",
         #             "AvgLongitude": "mean",
-        #             "UniqueAnimalID": "count"
+        #             "UniqueAnimalID": "nunique"
         #         })
-        #         .rename(columns={"UniqueAnimalID": "uniqueanimalid"})
-        #         .reset_index()
+        #         .rename(columns={"UniqueAnimalID": "uniqueanimalid"}).reset_index()
         #     )
 
+        #     # Mostrar el mapa en Streamlit
         #     st.markdown("Haz zoom y desplázate para explorar los grupos.")
-        #     st.components.v1.html(
-        #         mostrar_ositas_cluster(resumen_geo)._repr_html_(),
-        #         height=500,
-        #         scrolling=True
-        #     )
+
+        #     from streamlit.components.v1 import html
+        #     from IPython.display import display
+
+        #     # Crear mapa
+        #     mapa = mostrar_ositas_cluster(resumen_geo)
+
+        #     # Convertir ipyleaflet a HTML (renderizar en iframe con notebook extension activa)
+        #     # Este método requiere ejecución en entorno compatible como Jupyter o con extensions
+        #     try:
+        #         from ipywidgets.embed import embed_minimal_html
+        #         import tempfile
+
+        #         with tempfile.NamedTemporaryFile(delete=False, suffix=".html") as f:
+        #             embed_minimal_html(f.name, views=[mapa], title="Mapa de osas")
+        #             f.flush()
+        #             with open(f.name, "r", encoding="utf-8") as fhtml:
+        #                 html(fhtml.read(), height=500, scrolling=True)
+
+        #     except Exception as e:
+        #         st.error("No se pudo renderizar el mapa en Streamlit. Puedes correrlo en Jupyter.")
+        #         st.exception(e)
+
 
